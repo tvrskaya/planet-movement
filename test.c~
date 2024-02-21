@@ -1,9 +1,0 @@
-#include <stdio.h>
-
-int main(void)
-{
-  printf(sizeof(float));
-  printf(sizeof(long));
-  printf(sizeof(long float));
-  return 0;
-}

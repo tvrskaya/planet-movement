@@ -1,4 +1,5 @@
-#pragma once
+#ifndef OBJECTS_H
+#define OBJECTS_H
 
 struct planet {
   float m;
@@ -28,3 +29,4 @@ void initObject(struct floatObject *obj, const float x, const float y,
   obj->vx = vx;
   obj->vy = vy;
 }
+#endif

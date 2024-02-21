@@ -1,4 +1,5 @@
-#pragma once
+#ifndef CALCULATOR_H
+#define CALCULATOR_H
 
 #include <math.h>
 #include "objects.h"
@@ -18,3 +19,4 @@ void calculatePosition(const struct planet *p, struct floatObject *obj, const fl
   obj->y  += obj->vy*dt;
   //printf("y: %f\n", obj->y);
 }
+#endif
